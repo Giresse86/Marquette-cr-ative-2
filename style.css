@@ -273,10 +273,11 @@ border: rgb(228, 49, 228) solid 1px;
         margin: 50px 0px;
     }
     main-2{
-        width: 500px;
+        width: 400px;
         display: flex;
         flex-direction: column;
         border: 1px solid red;
+        margin-right: 20px;
     }
     .first-bloc{
         display: flex;
@@ -407,7 +408,7 @@ border: rgb(228, 49, 228) solid 1px;
         height: 3px;
         border: none;
         background-color: #D62976;
-        margin-right: 140px;
+        margin-right: 40px;
     }
     .barre{
         display: flex;
@@ -469,7 +470,7 @@ border: rgb(228, 49, 228) solid 1px;
         height: 3px;
         border: none;
         background-color: #D62976;
-        margin-right: 160px;
+        margin-right: 65px;
     }
     #souscategories1{
         display: flex;
