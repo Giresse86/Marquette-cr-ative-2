@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;500&family=Libre+Baskerville:ital@0;1&family=Lobster+Two&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vampiro+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;500&family=Libre+Baskerville:ital@0;1&family=Lobster+Two&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vampiro+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;500&family=Libre+Baskerville:ital@0;1&family=Lobster+Two&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vampiro+One&display=swap');
+body{
+ background: #33264E;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+    gap: 10px;
+}
+header img {
+    height: 40px;
+}
+header h1{
+    color: beige;
+    font-size: 80px;
+    margin-right: 120px;
+    font-family: 'vampiro one';
+}
+div h1{
+    color: white;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+}
+hr{
+    width: 70%;
+}
+main{
+    width: 900px;
+    border: red 2px solid;
+    margin-left: 310px;
+}
+.picture img{
+    width: 900px;
+    height:500px;
+    object-fit: cover;
+   }
