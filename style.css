@@ -26,6 +26,13 @@ header h1{
 div h1{
     color: white;
 }
+nav{
+    font-size: calc(0.5rem + 1.5vw);
+}
+#icons{
+    cursor: pointer;
+    display: none;
+}
 nav ul {
     display: flex;
     justify-content: center;
@@ -37,7 +44,7 @@ color: green;
 font-size: 50px;
 }
 nav li{
-    display: flex;
+    list-style: none;
     font-size: 20px;
 }
 hr{
@@ -202,14 +209,10 @@ border: rgb(228, 49, 228) solid 1px;
         width: 100%;
         display: flex;
         justify-content: space-around;
-        border: 1px solid yellowgreen;
         margin: 10px 0px;
     }
-    .ico, .cat{
-        border: 1px solid red;
-    }
+    
     .titreArticle{
-        border: 1px solid green;
         margin: 20px 10px;
         width: 480px;
         height: 400px;
@@ -276,7 +279,6 @@ border: rgb(228, 49, 228) solid 1px;
         width: 400px;
         display: flex;
         flex-direction: column;
-        border: 1px solid red;
         margin-right: 20px;
     }
     .first-bloc{
@@ -313,7 +315,6 @@ border: rgb(228, 49, 228) solid 1px;
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid white;
         margin-top: 10px;
     }
     .child-1 p{
@@ -329,7 +330,6 @@ border: rgb(228, 49, 228) solid 1px;
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid white;
         margin-top: 10px;
     }
     .child-2 p{
@@ -345,7 +345,6 @@ border: rgb(228, 49, 228) solid 1px;
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid white;
         margin-top: 10px;
         margin-bottom: 100px;
     }
@@ -534,7 +533,7 @@ border: rgb(228, 49, 228) solid 1px;
         height: 3px;
         border: none;
        background-color: #D62976;
-      margin-right: 160px;
+      margin-right: 60px;
     }
     .categories-barre{
         font-size: 25px;
@@ -704,3 +703,61 @@ border: rgb(228, 49, 228) solid 1px;
         color: beige;
         font-size: 20px;
       }
+      @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+    main-2{
+        display: none;
+    }
+    #contenair{
+        width: 100%;
+        margin: 0 -100px;
+        
+    }
+    nav img{
+        width: 100%;
+        margin: 0 150px;
+    }
+    nav p{
+       font-size: 40px;
+       margin-left: 200px;
+    }
+    nav div{
+        margin-left: 100px;
+    }
+    header{
+        margin-left: 40%;
+    }
+    ul{
+        margin-left: 100px;
+    }
+    button{
+        margin-left: 150px;
+    }
+    nav hr{
+        margin-left: 300px;
+    }
+    #point{
+        margin-left: 200px;
+    }
+    #icons{
+        display: block;
+    }
+    #icons:before{
+        content: "\2630";
+        color: beige;
+    }
+    nav ul{
+        position: fixed;
+        left: -100%;
+        top: 5%;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.25s;
+    }
+    header h1{
+        margin: 0 10px;
+    }
+    }
+    
