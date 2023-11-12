@@ -40,7 +40,6 @@ hr{
 }
 main{
     width: 900px;
-    border: red 2px solid;
     margin-left: 340px;
 }
 .picture img{
@@ -108,7 +107,6 @@ main-2{
     width: 500px;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     margin: 0px 50px;
 }
 .first-bloc{
@@ -145,7 +143,6 @@ main-2{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
     margin-top: 10px;
 }
 .child-1 p{
@@ -161,7 +158,6 @@ main-2{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
     margin-top: 10px;
 }
 .child-2 p{
@@ -177,7 +173,6 @@ main-2{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
     margin-top: 10px;
 }
 .child-3 p{
