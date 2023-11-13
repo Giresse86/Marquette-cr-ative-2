@@ -152,7 +152,6 @@ border: rgb(228, 49, 228) solid 1px;
     #first-bloc{
         width: 1000px;
         height: 500px;
-        margin: 0 250px;
         display: flex;
         box-shadow: 5px 5px 5px 5px #261646;
         position: relative;
@@ -710,32 +709,33 @@ border: rgb(228, 49, 228) solid 1px;
         display: none;
     }
     #contenair{
-        width: 100%;
-        margin: 0 -100px;
-        
+        width: 90%;
     }
     nav img{
-        width: 100%;
-        margin: 0 150px;
+        width: 900px;
+       margin: 0 45px;
     }
     nav p{
-       font-size: 40px;
-       margin-left: 200px;
+       font-size: 20px;
+      
     }
     nav div{
-        margin-left: 100px;
+       margin: 0 auto;
     }
     header{
-        margin-left: 40%;
+       width: 90%;
     }
-    ul{
-        margin-left: 100px;
+    main{
+      width: 500px;
+      margin: 0 30%;
+      box-shadow: none;
     }
     button{
-        margin-left: 150px;
+       margin: 0 auto;
     }
     nav hr{
-        margin-left: 300px;
+        width: 50%;
+        margin: 10px auto;
     }
     #point{
         margin-left: 200px;
@@ -747,6 +747,7 @@ border: rgb(228, 49, 228) solid 1px;
         content: "\2630";
         color: beige;
     }
+   
     nav ul{
         position: fixed;
         left: -100%;
@@ -757,7 +758,53 @@ border: rgb(228, 49, 228) solid 1px;
         transition: 0.25s;
     }
     header h1{
-        margin: 0 10px;
+        margin: 0 auto;
+    }
+    footer #end{
+        margin: 0;
+        
+    }
+    main{
+        width: 50%;
+    }
+    #firstparty{
+        width: 900px;
+    }
+    #first-bloc{
+        width: 900px;
+    }
+    #second-bloc{
+        width: 900px;
+    }
+    #three-bloc{
+        width: 900px;
+    }
+    #four-bloc{
+        width: 900px;
+    }
+    #girl, #croix{
+        width: 400px;
+    }
+    footer{
+        width: 900px;
+    }
+    .pinkbloc{
+        width: 150px;
+        height: 50px;
+    }
+    footer p{
+        font-size: 15px;
+        margin-left: 60px;
+    }
+    .pinkbloc{
+        display: none;
+    }
+    footer li{
+        display: none;
+    }
+    .ico{
+        display: flex;
+        align-items: center;
     }
     }
     
