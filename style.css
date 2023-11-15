@@ -713,7 +713,7 @@ border: rgb(228, 49, 228) solid 1px;
     }
     nav img{
         width: 900px;
-       margin: 0 45px;
+       margin: 0px 49px;
     }
     nav p{
        font-size: 20px;
@@ -736,9 +736,6 @@ border: rgb(228, 49, 228) solid 1px;
     nav hr{
         width: 50%;
         margin: 10px auto;
-    }
-    #point{
-        margin-left: 200px;
     }
     #icons{
         display: block;
